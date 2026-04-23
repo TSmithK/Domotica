@@ -6,6 +6,7 @@ Requisitos e Instalación
 Hardware: ESP32 DevKit V1, Módulo Relé 4CH, Pantalla OLED SSD1306 e interfaz I2C.
 Software: Arduino IDE con el paquete de tarjetas ESP32 instalado.
 Librerías: Instalar desde el gestor de bibliotecas: Adafruit SSD1306 y Adafruit GFX.
+En "Gestor de URLs Adicionales de Tarjetas", pegue: https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json y vaya a Herramientas > Placa > Gestor de tarjetas, busque "esp32" e instale la versión de Espressif Systems.
 Configuración: Clonar el repositorio y editar las variables ssid y password en el código fuente antes de cargar al microcontrolador.
 
 Cómo usarlo (Comandos y Endpoints)
